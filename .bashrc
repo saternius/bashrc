@@ -118,6 +118,12 @@ alias short="export PS1='\u@\h: '"
 alias clean='printf "\033c"'
 alias add="cd ~/Desktop/Github/List/ && ./add"
 alias list="cat -n ~/Desktop/Github/List/list.txt"
-alias fin="./fin"
+alias fin="cd ~/Desktop/Github/List/ && ./fin"
 alias calc="R"
-alias snake="google-chrome chrome-extension://jacpoliedopniegkhlcjhkomkohdmm/snakes.html"
+alias snake="chrome-extension://jacpoliedopniegkhphlcjhkomkohdmm/snakes.html"
+alias what="bash ~/Desktop/Github/Other/run.sh"
+alias ngame="google-chrome http://www.thewayoftheninja.org/nv2.html"
+alias reddit="firefox reddit.com"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
